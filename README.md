@@ -28,8 +28,8 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \xandrkat\helpers\html\Bootstrap::beginRow(['class' => 'sample-class']); ?>
-<?= \xandrkat\helpers\html\Bootstrap::beginCol([12,12,12,12], ['class' => 'sample-class']); ?>
+<?= \xandrkat\helpers\Bootstrap::beginRow(['class' => 'sample-class']); ?>
+<?= \xandrkat\helpers\Bootstrap::beginCol([12,12,12,12], ['class' => 'sample-class']); ?>
 // content/any ***
-<?= \xandrkat\helpers\html\Bootstrap::endCol(); ?>
-<?= \xandrkat\helpers\html\Bootstrap::endRow(); ?>```
+<?= \xandrkat\helpers\Bootstrap::endCol(); ?>
+<?= \xandrkat\helpers\Bootstrap::endRow(); ?>```

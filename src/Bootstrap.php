@@ -1,5 +1,5 @@
 <?php
-namespace xandrkat\helpers\html;
+namespace xandrkat\helpers;
 
 /**
  * @author Alexandr Katrazhenko <katrazhhenko@hotmail.com>
