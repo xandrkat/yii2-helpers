@@ -1,0 +1,37 @@
+{
+    "name": "xandrkat/yii2-helpers",
+    "description": "Extended Helpers for Yii2 Framework",
+    "keywords": ["yii2","extension","bootstrap","helpers"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/xandrkat/yii2-helpers/issues",
+        "source": "https://github.com/xandrkat/yii2-helpers"
+    },
+    "authors": [
+        {
+            "name": "Alexandr Katrazhenko",
+            "email": "katrazhenko@hotmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/bootstrap": "3.4.* | 3.3.* | 3.2.* | 3.1.*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "xandrkat\\helpers\\": "src"
+        }
+    },
+	"extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0"
+        }
+    }
+}
