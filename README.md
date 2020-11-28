@@ -11,6 +11,10 @@ Either run
 
 ```
 php composer.phar require --prefer-dist xandrkat/yii2-helpers "*"
+
+*************
+
+composer require xandrkat/yii2-helpers 
 ```
 
 or add
@@ -25,11 +29,21 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use it in your code:
 
 ```php
-<?= \xandrkat\helpers\Bootstrap::beginRow(['class' => 'sample-class']); ?>
-<?= \xandrkat\helpers\Bootstrap::beginCol([12,12,12,12], ['class' => 'sample-class']); ?>
+<?= \xandrkat\helpers\Html::beginDiv(['class' => 'sample-class']); ?>
+<?= \xandrkat\helpers\Html::beginP(['class' => 'sample-class']); ?>
+<?= \xandrkat\helpers\Html::begin<any>(['class' => 'sample-class']); ?>
+
 // content/any ***
-<?= \xandrkat\helpers\Bootstrap::endCol(); ?>
-<?= \xandrkat\helpers\Bootstrap::endRow(); ?>```
+
+<?= \xandrkat\helpers\Bootstrap::endDiv(); ?>
+<?= \xandrkat\helpers\Bootstrap::endP(); ?>
+<?= \xandrkat\helpers\Bootstrap::end<any>(); ?>
+
+//or
+
+<?= \xandrkat\helpers\Html::div($content, $attribs); ?>
+<?= \xandrkat\helpers\Html::<any>($content, $attribs); ?>
+```

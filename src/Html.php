@@ -1,6 +1,4 @@
 <?php
-
-
 namespace app\components;
 
 class Html extends \yii\helpers\Html
