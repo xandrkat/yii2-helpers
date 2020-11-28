@@ -1,7 +1,7 @@
 {
     "name": "xandrkat/yii2-helpers",
     "description": "Extended Helpers for Yii2 Framework",
-    "keywords": ["yii2","extension","bootstrap","helpers"],
+    "keywords": ["yii2","extension","helpers"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
@@ -11,12 +11,11 @@
     "authors": [
         {
             "name": "Alexandr Katrazhenko",
-            "email": "katrazhenko@hotmail.com"
+            "email": "katrazhenko@gmail.com.com"
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0",
-        "bower-asset/bootstrap": "3.4.* | 3.3.* | 3.2.* | 3.1.*"
+        "yiisoft/yii2": "~2.0.0"
     },
     "repositories": [
         {
