@@ -1,5 +1,5 @@
 <?php
-namespace app\components;
+namespace xandrkat\helpers;
 
 class Html extends \yii\helpers\Html
 {
